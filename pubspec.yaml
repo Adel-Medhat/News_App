@@ -35,6 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  network_image: ^0.1.1
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -62,7 +65,13 @@ flutter:
   assets:
     - assets/images/
 
-  # fonts:
+  fonts:
+    - family: Exo
+      fonts:
+        - asset: assets/fonts/Exo-Bold.ttf
+        - asset: assets/fonts/Exo-Medium.ttf
+        - asset: assets/fonts/Exo-Regular.ttf
+        - asset: assets/fonts/Exo-SemiBold.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
